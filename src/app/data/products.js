@@ -1,0 +1,31 @@
+export const products = [
+  {
+    id: 1,
+    name: "White Henley Shirt",
+    price: 22000,
+    category: "Shirts",
+    image: "/products/henley-shirt.jpg",
+    sizes: ["S", "M", "L", "XL"],
+    Badge : "New",
+    soldOut : "False"
+  },
+  {
+    id: 2,
+    name: "Ash Henley Shirt",
+    price: 22000,
+    category: "Shirts",
+    image: "/products/henley-shirt2.jpg",
+    sizes: ["S", "M", "L", "XL"],
+    badge: "New",
+    soldOut: false,
+  },
+  { id: 3,
+    name: "Brown Henley Shirt",
+    price: 22000,
+    category: "Shirts",
+    image: "/products/henley-shirt3.jpg",
+    sizes: ["S", "M", "L", "XL"],
+      badge: "New",
+      soldOut: false,
+  },
+];
